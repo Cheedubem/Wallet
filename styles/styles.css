@@ -181,6 +181,26 @@ footer a {
   body main h1 {
     font-size: 2rem;
   }
+  .main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .main img {
+    width: 80%;
+  }
+  .why {
+    padding: 2rem 2rem;
+    background-color: #fff;
+    color: #003125;
+  }
   .grid-container {
     grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
   }
@@ -193,6 +213,34 @@ footer a {
 }
 
 @media (max-width: 480px) {
+  .main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .main div {
+    padding: 4rem;
+    gap: 1rem;
+  }
+  .main img {
+    width: 100%;
+  }
+  .hero-banner img {
+    width: 90%;
+  }
+  .block-rec {
+    /* text-align: center; */
+    padding: 2rem 2rem;
+    background-color: #f1f1f1;
+    color: #003125;
+  }
   .grid-container {
     grid-template-columns: 1fr; /* Single column on even smaller screens */
   }
