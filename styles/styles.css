@@ -197,7 +197,7 @@ footer a {
     width: 80%;
   }
   .why {
-    padding: 2rem 2rem;
+    padding: 2rem;
     background-color: #fff;
     color: #003125;
   }
@@ -226,7 +226,7 @@ footer a {
     color: #fff;
   }
   .main div {
-    padding: 4rem;
+    padding: 2rem 1rem;
     gap: 1rem;
   }
   .main img {
